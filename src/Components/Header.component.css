@@ -1,0 +1,51 @@
+/* Header.css */
+
+.quote-container {
+    background-color: rgba(255, 255, 255, 0.8); /* Transparent white background */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 600px;
+    margin: 50px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for better readability */
+}
+
+.heading {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333; /* Darker text color */
+}
+
+.quote-text {
+    font-style: italic;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #555; /* Medium text color */
+}
+
+.author-text {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333; /* Darker text color */
+}
+
+.category-text {
+    color: #777; /* Lighter text color */
+    font-size: 0.9em;
+}
+
+.quote-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #007bff; /* Button color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.quote-button:hover {
+    background-color: #0056b3; /* Darker button color on hover */
+}
